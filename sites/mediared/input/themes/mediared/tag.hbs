@@ -1,0 +1,101 @@
+{{> head}}
+{{> top}}
+<main class="page page--tag">
+   <div class="hero {{@config.custom.widthHero}}">
+      {{#tag}}
+         <header>
+            <h1>
+               {{name}}
+               <sup>({{postsNumber}})</sup>
+            </h1>
+            {{#if description}}
+               <p>
+                  {{description}}
+               </p>
+            {{/if}}
+         </header>
+         {{#featuredImage}}
+            {{#if url}}
+               <figure class="hero__image">
+                  <img
+                     src="{{url}}"
+                     {{#if @config.site.responsiveImages}}
+                        {{responsiveImageAttributes 'tagImage' srcset.tag sizes.tag}}
+                     {{/if}}
+                     {{ lazyload "eager" }}
+                     height="{{height}}"
+                     width="{{width}}"
+                     alt="{{alt}}">
+
+                  {{#checkIfAny caption credits}}
+                     <figcaption>
+                        {{caption}}
+                        {{credits}}
+                     </figcaption>
+                  {{/checkIfAny}}
+               </figure>
+            {{else}}
+               {{#checkIfAll @config.custom.uploadHero @config.custom.displayHeroImage}}
+                  <figure class="hero__image">
+                     <img
+                        src="{{@config.custom.uploadHero}}"
+                        {{#if @config.site.responsiveImages}}
+                           {{responsiveImageAttributes @config.custom.uploadHero}}
+                        {{/if}}
+                        {{ lazyload "eager" }}
+                        {{imageDimensions @config.custom.uploadHero}}
+                        alt="{{@config.custom.uploadHeroAlt}}">
+
+                     {{#if @config.custom.uploadHeroCaption}}
+                        <figcaption>
+                           {{@config.custom.uploadHeroCaption}}
+                        </figcaption>
+                     {{/if}}
+                  </figure>
+               {{/checkIfAll}}
+            {{/if}}
+         {{/featuredImage}}
+      {{/tag}}
+   </div>
+   <div class="l-grid l-grid--{{@config.custom.layoutTags}}">
+      {{#each posts}}
+         <article class="c-card">
+            {{#featuredImage}}
+               {{#if url}}
+                  <figure class="c-card__image">
+                     <a href="{{../url}}">
+                        <img
+                           src="{{url}}"
+                           {{#if @config.site.responsiveImages}}
+                              {{responsiveImageAttributes 'featuredImage' srcset.cards sizes.cards}}
+                           {{/if}}
+                           {{ lazyload "lazy" }}
+                           height="{{height}}"
+                           width="{{width}}"
+                           alt="{{alt}}">
+                     </a>
+                  </figure>
+               {{/if}}
+            {{/featuredImage}}
+            <header class="c-card__header">
+               <p>
+                  <time datetime="{{date createdAt 'YYYY-MM-DDTHH:mm'}}">
+                     {{#checkIf @config.custom.formatDate '!=' 'custom'}}
+                        {{date createdAt @config.custom.formatDate}}
+                     {{else}}
+                        {{date createdAt @config.custom.formatDateCustom}}
+                     {{/checkIf}}
+                  </time>
+               </p>
+               <h2>
+                  <a href="{{url}}">
+                     {{title}}
+                  </a>
+               </h2>
+            </header>
+         </article>
+      {{/each}}
+   </div>
+   {{> pagination}}
+</main>
+{{> footer}}

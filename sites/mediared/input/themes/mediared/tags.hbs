@@ -1,0 +1,64 @@
+{{> head}}
+{{> top}}
+<main class="page page--tags">
+   <div class="hero {{@config.custom.widthHero}}">
+      <header>
+         <h1>
+            {{ translate 'tags.tagsPageTitle' }}
+            <sup>({{tagsNumber}})</sup>
+         </h1>
+         <p>
+            {{ translate 'tags.description' }}
+         </p>
+      </header>
+      {{#checkIfAll @config.custom.uploadHero @config.custom.displayHeroImage}}
+         <figure class="hero__image">
+            <img
+               src="{{@config.custom.uploadHero}}"
+               {{#if @config.site.responsiveImages}}
+                  {{responsiveImageAttributes @config.custom.uploadHero}}
+               {{/if}}
+               {{ lazyload "eager" }}
+               {{imageDimensions @config.custom.uploadHero}}
+               alt="{{@config.custom.uploadHeroAlt}}">
+
+            {{#if @config.custom.uploadHeroCaption}}
+               <figcaption>
+                  {{@config.custom.uploadHeroCaption}}
+               </figcaption>
+            {{/if}}
+         </figure>
+      {{/checkIfAll}}
+   </div>
+   <ul class="l-grid l-grid--{{@config.custom.layoutTags}}">
+      {{#each tags}}
+         <li class="c-card">
+            {{#featuredImage}}
+               {{#if url}}
+                  <figure class="c-card__image">
+                     <a href="{{../url}}">
+                        <img
+                           src="{{url}}"
+                           {{#if @config.site.responsiveImages}}
+                              {{responsiveImageAttributes 'tagImage' srcset.cards sizes.cards}}
+                           {{/if}}
+                           {{ lazyload "lazy" }}
+                           height="{{height}}"
+                           width="{{width}}"
+                           alt="{{alt}}">
+                     </a>
+                  </figure>
+               {{/if}}
+            {{/featuredImage}}
+            <div class="c-card__header">             
+               <h2>
+                  <a href="{{url}}">
+                     {{name}}
+                  </a>
+               </h2>             
+            </header>
+         </li>
+      {{/each}}
+   </ul>
+</main>
+{{> footer}}

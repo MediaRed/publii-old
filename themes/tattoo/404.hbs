@@ -1,0 +1,41 @@
+{{> head}}
+{{> top}}
+<main class="page page--error">
+   <div class="hero {{@config.custom.widthHero}}">
+      <header>
+         <h1>
+            {{ translate 'error.404' }}
+         </h1>
+         <p>
+            {{ translate 'error.message-1' }}
+         </p>
+      </header>
+      {{#checkIfAll @config.custom.uploadHero @config.custom.displayHeroImage}}
+         <figure class="hero__image">
+            <img
+                  src="{{@config.custom.uploadHero}}"
+                  {{#if @config.site.responsiveImages}}
+                     {{responsiveImageAttributes @config.custom.uploadHero}}
+                  {{/if}}
+                  {{ lazyload "eager" }}
+                  {{imageDimensions @config.custom.uploadHero}}
+                  alt="{{@config.custom.uploadHeroAlt}}">
+
+               {{#if @config.custom.uploadHeroCaption}}
+                  <figcaption>
+                     {{@config.custom.uploadHeroCaption}}
+                  </figcaption>
+               {{/if}}
+         </figure>
+      {{/checkIfAll}}
+   </div>
+    <div class="wrapper post__entry">
+         <p>{{ translate 'error.message-2' }}</p>
+         <p>
+            <a href="{{@website.url}}" class="btn btn--outline">
+               {{ translate 'error.button' }}
+            </a>
+         </p>
+      </div>
+</main>
+{{> footer}}

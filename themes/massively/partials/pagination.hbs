@@ -1,0 +1,75 @@
+{{!
+	Theme created by TidyCustoms based on Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 & MIT license (html5up.net/license)
+}}
+<nav class="pagination">
+   {{#checkIf @config.custom.pagination '==' "numbered" }}
+      {{#if @pagination.previousPage}}
+         <a href="{{@pagination.previousPageUrl}}" class="previous">
+            {{ translate 'partials.pagination.prev' }}
+         </a>
+      {{/if}}
+      {{#each @pagination.pages}}
+         {{#isCurrentPage @pagination.currentPage this}}
+            <a href="#" class="active">
+               {{this}}
+            </a>
+         {{else}}
+            <a href="{{pageUrl @pagination.context this}}">
+               {{this}}
+            </a>
+         {{/isCurrentPage}}
+      {{/each}}
+      {{#if @pagination.nextPage}}
+         <a href="{{@pagination.nextPageUrl}}" class="next">
+            {{ translate 'partials.pagination.next' }}
+         </a>
+      {{/if}}
+   {{else}}
+      {{#checkIf @website.postsOrdering '==' "desc"}}
+         {{#if @pagination.nextPage}}
+
+            {{#checkIf @website.postsOrdering '==' "desc"}}
+               <a href="{{@pagination.nextPageUrl}}" class="previous">
+                  {{ translate 'partials.pagination.prev' }}</a>
+
+            {{else}}
+               <a href="{{@pagination.nextPageUrl}}" class="next">
+                  {{ translate 'partials.pagination.next' }}</a>
+            {{/checkIf}}
+
+         {{/if}}
+         {{#if @pagination.previousPage}}
+            {{#checkIf @website.postsOrdering '==' "desc"}}
+               <a href="{{@pagination.previousPageUrl}}" class="next">
+                  {{ translate 'partials.pagination.next' }}</a>
+            {{else}}
+               <a href="{{@pagination.previousPageUrl}}" class="prev">
+                  {{ translate 'partials.pagination.prev' }}</a>
+            {{/checkIf}}
+
+         {{/if}}
+      {{else}}
+         {{#if @pagination.previousPage}}
+            {{#checkIf @website.postsOrdering '==' "desc"}}
+               <a href="{{@pagination.previousPageUrl}}" class="next">
+                  {{ translate 'partials.pagination.next' }}</a>
+            {{else}}
+               <a href="{{@pagination.previousPageUrl}}" class="prev">
+                  {{ translate 'partials.pagination.prev' }}</a>
+            {{/checkIf}}
+
+         {{/if}}
+         {{#if @pagination.nextPage}}
+            {{#checkIf @website.postsOrdering '==' "desc"}}
+               <a href="{{@pagination.nextPageUrl}}" class="previous">
+                  {{ translate 'partials.pagination.prev' }}</a>
+            {{else}}
+               <a href="{{@pagination.nextPageUrl}}" class="next">
+                  {{ translate 'partials.pagination.next' }}</a>
+            {{/checkIf}}
+         {{/if}}
+      {{/checkIf}}
+   {{/checkIf}}
+</nav>

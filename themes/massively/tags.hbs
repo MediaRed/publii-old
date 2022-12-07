@@ -1,0 +1,49 @@
+{{!
+	Theme created by TidyCustoms based on Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 & MIT license (html5up.net/license)
+}}
+{{> head}}
+{{> top}}
+
+<main id="main">
+   <header class="page-header">
+      <h1>
+         {{ translate 'tags.tagsPageTitle' }}
+         {{#if @config.custom.postsCount}}
+            <sup>({{tagsNumber}})</sup>
+         {{/if}}
+      </h1>
+      <p>
+         {{ translate 'tags.description' }}
+      </p>
+   </header>
+   <section class="posts">
+      {{#each tags}}
+         <article>
+            <h2>
+               <a href="{{url}}">{{name}}</a>
+            </h2>
+            {{#if @config.custom.feedFeaturedImage}}
+               {{#featuredImage}}
+                  {{#if url}}
+                     <a href="{{../url}}" class="image fit">
+                        <img
+                           src="{{url}}"
+                           {{#if @config.site.responsiveImages}}
+                              {{responsiveImageAttributes 'tagImage' srcset sizes}}
+                           {{/if}}
+                           {{ lazyload "lazy" }}
+                           height="{{height}}"
+                           width="{{width}}"
+                           alt="{{alt}}">
+                     </a>
+                  {{/if}}
+               {{/featuredImage}}
+            {{/if}}
+            <p>{{description}}</p>
+         </article>
+      {{/each}}
+   </section>
+</main>
+{{> footer}}

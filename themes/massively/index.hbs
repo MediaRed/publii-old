@@ -1,0 +1,128 @@
+{{!
+	Theme created by TidyCustoms based on Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 & MIT license (html5up.net/license)
+}}
+{{> head}}
+{{> top}}
+{{#checkIf @config.custom.frontSource '==' "post" }}
+   {{> frontpage-post}}
+{{else}}
+   <main id="main">
+
+      {{#if @renderer.isFirstPage}}
+         {{#featuredPosts}}
+            <article class="post featured">
+               <header class="major">
+                  {{#if @config.custom.feedDate}}
+                     <time datetime="{{date createdAt 'YYYY-MM-DDTHH:mm'}}" class="date">
+                        {{#checkIf @config.custom.formatDate '!=' 'custom'}}
+                           {{date createdAt @config.custom.formatDate}}
+                        {{else}}
+                           {{date createdAt @config.custom.formatDateCustom}}
+                        {{/checkIf}}
+                     </time>
+                  {{/if}}
+                  <h2>
+                     <a href="{{url}}">{{title}}</a>
+                  </h2>
+                  {{#if hasCustomExcerpt}}
+                     {{{ excerpt }}}
+                  {{else}}
+                     <p>{{{ excerpt }}}</p>
+                  {{/if}}
+               </header>
+
+               {{#if @config.custom.feedFeaturedImage}}
+                  {{#featuredImage}}
+                     {{#if url}}
+                        <a href="{{../url}}" class="image main">
+                           <img
+                              src="{{url}}"
+                              {{#if @config.site.responsiveImages}}
+                              {{responsiveImageAttributes 'featuredImage' srcset.post sizes.post}}
+                              {{/if}}
+                              {{ lazyload "lazy" }}
+                              height="{{height}}"
+                              width="{{width}}"
+                              alt="{{alt}}">
+                        </a>
+                     {{/if}}
+                  {{/featuredImage}}
+               {{/if}}
+
+               {{#if @config.custom.feedReadMore}}
+                  <ul class="actions special">
+                     <li>
+                        <a href="{{url}}" class="button large">{{ translate 'post.readMore' }}</a>
+                     </li>
+                  </ul>
+               {{/if}}
+
+            </article>
+         {{/featuredPosts}}
+      {{/if}}
+
+      <section class="posts">
+         {{#each posts}}
+            <article>
+               <header>
+                  {{#if @config.custom.feedDate}}
+                     <time datetime="{{date createdAt 'YYYY-MM-DDTHH:mm'}}" class="date">
+                        {{#checkIf @config.custom.formatDate '!=' 'custom'}}
+                           {{date createdAt @config.custom.formatDate}}
+                        {{else}}
+                           {{date createdAt @config.custom.formatDateCustom}}
+                        {{/checkIf}}
+                     </time>
+                  {{/if}}
+                  <h2>
+                     <a href="{{url}}">{{title}}</a>
+                  </h2>
+               </header>
+
+               {{#if @config.custom.feedFeaturedImage}}
+                  {{#featuredImage}}
+                     {{#if url}}
+                        <a href="{{../url}}" class="image fit">
+                           <img
+                              src="{{url}}"
+                              {{#if @config.site.responsiveImages}}
+                              {{responsiveImageAttributes 'featuredImage' srcset.card sizes.card}}
+                              {{/if}}
+                              {{ lazyload "lazy" }}
+                              height="{{height}}"
+                              width="{{width}}"
+                              alt="{{alt}}">
+                        </a>
+                     {{/if}}
+                  {{/featuredImage}}
+               {{/if}}
+
+               {{#if hasCustomExcerpt}}
+                  {{{ excerpt }}}
+               {{else}}
+                  <p>{{{ excerpt }}}</p>
+               {{/if}}
+
+               {{#if @config.custom.feedReadMore}}
+                  <ul class="actions special">
+                     <li>
+                        <a href="{{url}}" class="button">{{ translate 'post.readMore' }}</a>
+                     </li>
+                  </ul>
+               {{/if}}
+            
+            </article>
+         {{/each}}
+      </section>
+
+      {{#if @pagination}}
+         <footer>
+            {{> pagination}}
+         </footer>
+      {{/if}}
+
+   </main>
+{{/checkIf}}
+{{> footer}}

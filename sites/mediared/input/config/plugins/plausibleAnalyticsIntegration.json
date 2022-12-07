@@ -1,0 +1,7 @@
+{
+    "domain": "publii.mediared.uy",
+    "scriptURL": "https://stats.p113.io/js/plausible.js",
+    "previewMode": true,
+    "cookieBannerIntegration": true,
+    "cookieBannerGroup": "plausible"
+}

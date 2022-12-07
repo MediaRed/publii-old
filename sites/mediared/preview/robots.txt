@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: file:////home/tom/Documents/Publii/sites/mediared/preview/sitemap.xml

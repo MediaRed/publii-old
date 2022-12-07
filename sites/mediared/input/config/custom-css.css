@@ -1,0 +1,42 @@
+/*
+ * Put your custom CSS code here
+ */
+
+.grid {
+  max-width: 90vw; 
+  display: grid;
+  grid-gap: .5rem;
+  align-items: flex-start;
+  /* Uncomment these lines if you want to have the standard Trello behavior instead of the column wrapping */
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(260px, 1fr); 
+}
+.grid-item {
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: .5rem;
+  margin: .5rem 0;  
+}
+.col2 {
+ min-width: 45vw;   
+}
+.post {
+  width: 96vw;  
+}
+.post.wrapper {
+  max-width: 90vw;  
+}
+.c-card__header p time { display: none}
+a.button {
+ -webkit-appearance: button;
+ -moz-appearance: button;
+ appearance: button;
+ background-color: initial;
+ text-decoration: none;
+ color: initial;   
+}
+.top {
+ height: 10vw;
+ min-height: 10vw;
+ max-height: 10vw;
+}

@@ -688,9 +688,43 @@ textarea {
   resize: vertical;
   max-width: 100%;
 }
+.grid {
+  max-width: 90vw; 
+  display: grid;
+  grid-gap: .5rem;
+  align-items: flex-start;
+  /* Uncomment these lines if you want to have the standard Trello behavior instead of the column wrapping */
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(260px, 1fr); 
+}
+
+.grid-item {
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: .5rem;
+  margin: .5rem 0;  
+}
+.col2 {
+ min-width: 45vw;   
+}
+.post {
+  width: 96vw;  
+}
+.post.wrapper {
+  max-width: 90vw;  
+}
+.c-card__header p time { display: none}
+a.button {
+ -webkit-appearance: button;
+ -moz-appearance: button;
+ appearance: button;
+ background-color: initial;
+ text-decoration: none;
+ color: initial;   
+}
 
 .top {
-  height: var(--header-height);
+  max-height: 30vh;
   left: 0;
   position: absolute;
   top: 0;
@@ -700,8 +734,7 @@ textarea {
 }
 @media all and (min-width: 56.25em) {
   .top {
-    height: auto;
-    max-height: 9.5rem;
+    max-height: 30vh;
   }
 }
 .top > div {
@@ -715,6 +748,7 @@ textarea {
   max-width: var(--page-width);
   position: relative;
   width: 100%;
+  max-height: 30vh;
 }
 @media all and (max-width: 56.1875em) {
   .top > div {
@@ -722,6 +756,11 @@ textarea {
     grid-template-columns: 1fr auto auto;
         grid-template-areas: "logo search menu";
   }
+}
+.top.header {
+  min-height: 30vh;
+  max-height: 30vh;
+  height: 30vh;
 }
 .top.is-visible {
   -webkit-box-align: center;
@@ -809,7 +848,7 @@ textarea {
 }
 @media all and (min-width: 56.25em) {
   .logo > img {
-    max-height: 5rem;
+    max-height: 4rem;
   }
 }
 
@@ -1466,6 +1505,8 @@ textarea {
   background: var(--hero-bg);
   margin-bottom: var(--grid-gap);
   min-height: var(--hero-min-height);
+  height: 30vh;
+  width: 100vw;
   position: relative;
   text-align: center;
   top: 0;
@@ -1478,7 +1519,7 @@ textarea {
 }
 @media all and (min-width: 56.25em) {
   .hero {
-    margin-top: 12.75rem;
+    margin-top: 0;
   }
 }
 @media all and (min-width: 56.25em) {
@@ -1492,13 +1533,17 @@ textarea {
   margin-right: calc(-50vw + 50%);
 }
 .hero > header {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--white);
   max-width: var(--page-width);
   padding: 0 4%;
   text-align: center;
   width: 100%;
-  z-index: 2;
   position: absolute;
+  z-index: 3;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -1511,6 +1556,8 @@ textarea {
 }
 .hero > header * {
   color: var(--white);
+  margin-top: 11%;
+  margin-left: 0%;
 }
 .hero > header a:hover {
   text-decoration: underline;
@@ -1518,10 +1565,8 @@ textarea {
           text-decoration-skip: ink;
 }
 .hero__image {
-  margin: 0;
   width: 100vw;
-  height: 20vh;
-  position: relative;
+  height: 30vh;
 }
 .hero.hero--full h1 sup {
   display: none;
@@ -1530,16 +1575,16 @@ textarea {
   background: var(--hero-bg);
   content: "";
   display: block;
-  height: 100%;
   left: 0;
   opacity: var(--hero-opacity);
   position: absolute;
   top: 0;
   width: 100%;
+  height: 100%;
 }
 .hero__image > img {
-  width: 100vw;
-  height: 20vh;
+  width: 100%;
+  height: 100%;
   display: block;
   -o-object-fit: cover;
      object-fit: cover;

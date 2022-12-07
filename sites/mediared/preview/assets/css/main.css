@@ -1519,7 +1519,12 @@ textarea {
 }
 .hero__image {
   margin: 0;
+  width: 100vw;
+  height: 20vh;
   position: relative;
+}
+.hero.hero--full h1 sup {
+  display: none;
 }
 .hero__image::after {
   background: var(--hero-bg);
@@ -1533,10 +1538,11 @@ textarea {
   width: 100%;
 }
 .hero__image > img {
+  width: 100vw;
+  height: 20vh;
   display: block;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 100%;
 }
 @media all and (max-width: 56.1875em) {
   .hero__image > img {

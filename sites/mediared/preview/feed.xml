@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<feed xmlns="http://www.w3.org/2005/Atom">
     <title>Mediared</title>
     <link href="file:////home/tom/Documents/Publii/sites/mediared/preview/feed.xml" rel="self" />
     <link href="file:////home/tom/Documents/Publii/sites/mediared/preview" />
@@ -16,7 +16,6 @@
         </author>
         <link href="file:////home/tom/Documents/Publii/sites/mediared/preview/relacionamiento-institucional/index.html"/>
         <id>file:////home/tom/Documents/Publii/sites/mediared/preview/relacionamiento-institucional/index.html</id>
-        <media:content url="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/14/photo_2022-10-17_13-35-19.jpg" medium="image" />
             <category term="Servicios"/>
 
         <updated>2022-10-17T16:26:55-03:00</updated>
@@ -28,7 +27,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/14/photo_2022-10-17_13-35-19.jpg" class="type:primaryImage" alt="" /></p>
+                    <img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/14/photo_2022-10-17_13-35-19.jpg" alt="" />
                 
   <p>
     Articulamos de forma transparente la información relevante sobre un sector, actividad o colectivo a las administraciones públicas, institucionales o privadas.<br>Hay que destacar que en las sociedades actuales la libertad de expresión se ejerce no sólo a través de las personas sino también mediante las organizaciones públicas o privadas de la sociedad civil. En este sentido, las relaciones institucionales son una forma de canalizar esta libertad de expresión y establecer comunicación entre diferentes entidades de todas las esferas.
@@ -55,7 +54,6 @@
         </author>
         <link href="file:////home/tom/Documents/Publii/sites/mediared/preview/arte-and-cultura/index.html"/>
         <id>file:////home/tom/Documents/Publii/sites/mediared/preview/arte-and-cultura/index.html</id>
-        <media:content url="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/13/photo_2022-10-17_13-35-23.jpg" medium="image" />
             <category term="Servicios"/>
 
         <updated>2022-10-17T16:28:26-03:00</updated>
@@ -67,7 +65,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/13/photo_2022-10-17_13-35-23.jpg" class="type:primaryImage" alt="" /></p>
+                    <img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/13/photo_2022-10-17_13-35-23.jpg" alt="" />
                 
   <p>
     ◦ Gestión cultural:<br>◦ Actividades:<br>◦ Muestras:<br>◦ Intervenciones urbanas:<br>
@@ -86,7 +84,6 @@
         </author>
         <link href="file:////home/tom/Documents/Publii/sites/mediared/preview/formacion/index.html"/>
         <id>file:////home/tom/Documents/Publii/sites/mediared/preview/formacion/index.html</id>
-        <media:content url="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/12/photo_2022-10-17_13-32-09.jpg" medium="image" />
             <category term="Servicios"/>
 
         <updated>2022-10-17T15:47:58-03:00</updated>
@@ -98,7 +95,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/12/photo_2022-10-17_13-32-09.jpg" class="type:primaryImage" alt="" /></p>
+                    <img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/12/photo_2022-10-17_13-32-09.jpg" alt="" />
                 
   <ul>
     <li>Cursos:</li><li>Talleres:</li><li>Laboratorios:</li>
@@ -113,7 +110,6 @@
         </author>
         <link href="file:////home/tom/Documents/Publii/sites/mediared/preview/comunicacion/index.html"/>
         <id>file:////home/tom/Documents/Publii/sites/mediared/preview/comunicacion/index.html</id>
-        <media:content url="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/11/photo_2022-10-17_13-34-37.jpg" medium="image" />
             <category term="Servicios"/>
 
         <updated>2022-10-17T15:48:10-03:00</updated>
@@ -125,7 +121,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/11/photo_2022-10-17_13-34-37.jpg" class="type:primaryImage" alt="" /></p>
+                    <img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/11/photo_2022-10-17_13-34-37.jpg" alt="" />
                 
   <ul>
     <li>&nbsp;Diagnóstico:</li><li>&nbsp;Consultorías:</li><li>&nbsp;Campañas:</li><li>&nbsp;Gestión de redes sociales:</li><li>&nbsp;Productos audiovisuales:</li><li>&nbsp;Productos gráficos:</li><li>&nbsp;Productos digitales:</li>
@@ -140,14 +136,13 @@
         </author>
         <link href="file:////home/tom/Documents/Publii/sites/mediared/preview/campana-feminista/index.html"/>
         <id>file:////home/tom/Documents/Publii/sites/mediared/preview/campana-feminista/index.html</id>
-        <media:content url="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/9/photo_2022-10-17_13-32-05.jpg" medium="image" />
             <category term="Proyectos"/>
 
         <updated>2022-10-17T16:28:17-03:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/9/photo_2022-10-17_13-32-05.jpg" class="type:primaryImage" alt="" /></p>
+                    <img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/9/photo_2022-10-17_13-32-05.jpg" alt="" />
                 
   <p>
     
@@ -162,14 +157,13 @@
         </author>
         <link href="file:////home/tom/Documents/Publii/sites/mediared/preview/entramada/index.html"/>
         <id>file:////home/tom/Documents/Publii/sites/mediared/preview/entramada/index.html</id>
-        <media:content url="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/8/photo_2022-10-17_13-32-13.jpg" medium="image" />
             <category term="Proyectos"/>
 
         <updated>2022-10-17T15:48:37-03:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/8/photo_2022-10-17_13-32-13.jpg" class="type:primaryImage" alt="" /></p>
+                    <img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/8/photo_2022-10-17_13-32-13.jpg" alt="" />
                 
   <p>
     
@@ -184,14 +178,13 @@
         </author>
         <link href="file:////home/tom/Documents/Publii/sites/mediared/preview/fundamentalmente-feministas/index.html"/>
         <id>file:////home/tom/Documents/Publii/sites/mediared/preview/fundamentalmente-feministas/index.html</id>
-        <media:content url="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/7/photo_2022-10-17_13-32-22.jpg" medium="image" />
             <category term="Proyectos"/>
 
         <updated>2022-10-17T15:48:51-03:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/7/photo_2022-10-17_13-32-22.jpg" class="type:primaryImage" alt="" /></p>
+                    <img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/7/photo_2022-10-17_13-32-22.jpg" alt="" />
                 
   <p>
     
@@ -206,14 +199,13 @@
         </author>
         <link href="file:////home/tom/Documents/Publii/sites/mediared/preview/nitep/index.html"/>
         <id>file:////home/tom/Documents/Publii/sites/mediared/preview/nitep/index.html</id>
-        <media:content url="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/6/photo_2022-10-17_13-31-58.jpg" medium="image" />
             <category term="Proyectos"/>
 
         <updated>2022-10-17T16:27:06-03:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/6/photo_2022-10-17_13-31-58.jpg" class="type:primaryImage" alt="" /></p>
+                    <img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/6/photo_2022-10-17_13-31-58.jpg" alt="" />
                 
   <p>
     
@@ -228,7 +220,6 @@
         </author>
         <link href="file:////home/tom/Documents/Publii/sites/mediared/preview/inicio/index.html"/>
         <id>file:////home/tom/Documents/Publii/sites/mediared/preview/inicio/index.html</id>
-        <media:content url="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/3/photo_2022-10-17_13-31-58.jpg" medium="image" />
 
         <updated>2022-10-17T17:42:41-03:00</updated>
             <summary>
@@ -239,7 +230,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/3/photo_2022-10-17_13-31-58.jpg" class="type:primaryImage" alt="" /></p>
+                    <img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/3/photo_2022-10-17_13-31-58.jpg" alt="" />
                 
   <p>
     <br>Comunicación alternativa, hecha con amor y convicción en Uruguay
@@ -266,17 +257,17 @@
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
       <a href="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/3/gallery/photo_2022-10-17_13-35-19.jpg" data-size="1280x853">
-        <img loading="lazy" src="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/3/gallery/photo_2022-10-17_13-35-19-thumbnail.jpg" height="512" width="768" alt="" >
+        <img loading="lazy" src="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/3/gallery/photo_2022-10-17_13-35-19-thumbnail.jpg" height="512" width="768" alt="" />
       </a>
       
     </figure><figure class="gallery__item">
       <a href="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/3/gallery/photo_2022-10-17_13-34-37.jpg" data-size="1280x1024">
-        <img loading="lazy" src="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/3/gallery/photo_2022-10-17_13-34-37-thumbnail.jpg" height="614" width="768" alt="" >
+        <img loading="lazy" src="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/3/gallery/photo_2022-10-17_13-34-37-thumbnail.jpg" height="614" width="768" alt="" />
       </a>
       
     </figure><figure class="gallery__item">
       <a href="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/3/gallery/photo_2022-10-17_13-32-22.jpg" data-size="1280x853">
-        <img loading="lazy" src="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/3/gallery/photo_2022-10-17_13-32-22-thumbnail.jpg" height="512" width="768" alt="" >
+        <img loading="lazy" src="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/3/gallery/photo_2022-10-17_13-32-22-thumbnail.jpg" height="512" width="768" alt="" />
       </a>
       
     </figure>
@@ -292,7 +283,6 @@
         </author>
         <link href="file:////home/tom/Documents/Publii/sites/mediared/preview/servicios/index.html"/>
         <id>file:////home/tom/Documents/Publii/sites/mediared/preview/servicios/index.html</id>
-        <media:content url="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/2/photo_2022-10-17_13-31-39.jpg" medium="image" />
 
         <updated>2022-10-17T15:01:41-03:00</updated>
             <summary>
@@ -303,7 +293,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/2/photo_2022-10-17_13-31-39.jpg" class="type:primaryImage" alt="" /></p>
+                    <img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/2/photo_2022-10-17_13-31-39.jpg" alt="" />
                 
   <p>
     Entrada Comunicación<br>        ◦ Diagnóstico:<br>        ◦ Consultorías:<br>        ◦ Campañas:<br>        ◦ Gestión de redes sociales:<br>        ◦ Productos audiovisuales:<br>        ◦ Productos gráficos:<br>        ◦ Productos digitales:<br><br>    • Entrada Formación<br>        ◦ Cursos:<br>        ◦ Talleres:<br>        ◦ Laboratorios:<br><br>    • Entrada Arte &amp; Cultura<br>        ◦ Gestión cultural:<br>        ◦ Actividades:<br>        ◦ Muestras:<br>        ◦ Intervenciones urbanas:<br><br>    • Entrada Relacionamiento Institucional

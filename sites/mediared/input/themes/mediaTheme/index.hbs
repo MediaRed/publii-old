@@ -1,0 +1,92 @@
+{{> head}}
+{{> top}}
+<main>
+   {{#checkIf @config.custom.frontSource '==' "post" }}
+      {{> frontpage-post}}
+   {{else}}
+      <div class="hero {{@config.custom.widthHero}}">
+         <header>
+            {{{@config.custom.textHero}}}
+            {{#if @config.custom.siteOwner}}
+               {{#siteOwner}}
+                  <address>
+                     {{ translate 'frontpage.publishedBy' }}
+                     <a href="{{url}}">{{name}}</a>
+                  </address>
+               {{/siteOwner}}
+            {{/if}}
+            {{#if @config.custom.lastUpdate}}
+               {{ translate 'frontpage.refreshed' }}
+               <time datetime="{{date @website.lastUpdate 'YYYY-MM-DDTHH:mm'}}">
+                  {{#checkIf @config.custom.formatDate '!=' 'custom'}}
+                     {{date @website.lastUpdate @config.custom.formatDate}}
+                  {{else}}
+                     {{date @website.lastUpdate @config.custom.formatDateCustom}}
+                  {{/checkIf}}
+               </time>
+            {{/if}}
+         </header>
+         {{#if @config.custom.uploadHero}}
+            <figure class="hero__image">
+               <img
+                  src="{{@config.custom.uploadHero}}"
+                  {{#if @config.site.responsiveImages}}
+                     {{responsiveImageAttributes @config.custom.uploadHero}}
+                  {{/if}}
+                  {{ lazyload "eager" }}
+                  {{imageDimensions @config.custom.uploadHero}}
+                  alt="{{@config.custom.uploadHeroAlt}}">
+
+               {{#if @config.custom.uploadHeroCaption}}
+                  <figcaption>
+                     {{@config.custom.uploadHeroCaption}}
+                  </figcaption>
+               {{/if}}
+            </figure>            
+         {{/if}}
+      </div>
+      <div class="l-grid l-grid--{{@config.custom.layoutFrontpage}}">
+         {{#each posts}}
+            <article class="c-card">
+               {{#featuredImage}}
+                  {{#if url}}
+                     <figure class="c-card__image">                       
+                         <a href="{{../url}}">
+                              <img
+                              src="{{url}}"
+                              {{#if @config.site.responsiveImages}}
+                                 {{responsiveImageAttributes 'featuredImage' srcset.cards sizes.cards}}
+                              {{/if}}
+                              {{ lazyload "lazy" }}
+                              height="{{height}}"
+                              width="{{width}}"
+                              alt="{{alt}}">
+                         </a>                        
+                     </figure>
+                  {{/if}}
+               {{/featuredImage}}
+               <header class="c-card__header">
+                  {{#if @config.custom.cardsDate}}
+                     <p>
+                        <time datetime="{{date createdAt 'YYYY-MM-DDTHH:mm'}}">
+                           {{#checkIf @config.custom.formatDate '!=' 'custom'}}
+                              {{date createdAt @config.custom.formatDate}}
+                           {{else}}
+                              {{date createdAt @config.custom.formatDateCustom}}
+                           {{/checkIf}}
+                        </time>
+                     </p>
+                  {{/if}}
+                  <h2>
+                     <a href="{{url}}">
+                        {{title}}
+                     </a>
+                  </h2>
+               </header>
+            </article>
+         {{/each}}
+      </div>
+      {{> pagination}}
+   </main>
+{{/checkIf}}
+{{> footer}}

@@ -1,0 +1,51 @@
+{{#if @pagination}}
+   <nav class="pagination {{@website.postsOrdering}}">
+      {{#checkIf @website.postsOrdering '==' "desc"}}
+         {{#if @pagination.nextPage}}
+            {{#checkIf @website.postsOrdering '==' "desc"}}
+               <a href="{{@pagination.nextPageUrl}}" class="btn btn--outline">
+                  {{ translate 'partials.pagination.prev' }}
+               </a>
+            {{else}}
+               <a href="{{@pagination.nextPageUrl}}" class="btn btn--outline">
+                  {{ translate 'partials.pagination.next' }}
+               </a>
+            {{/checkIf}}
+         {{/if}}
+         {{#if @pagination.previousPage}}
+            {{#checkIf @website.postsOrdering '==' "desc"}}
+               <a href="{{@pagination.previousPageUrl}}" class="btn btn--outline">
+                  {{ translate 'partials.pagination.next' }}
+               </a>
+            {{else}}
+               <a href="{{@pagination.previousPageUrl}}" class="btn btn--outline">
+                  {{ translate 'partials.pagination.prev' }}
+               </a>
+            {{/checkIf}}
+         {{/if}}
+      {{else}}
+         {{#if @pagination.previousPage}}
+            {{#checkIf @website.postsOrdering '==' "desc"}}
+               <a href="{{@pagination.previousPageUrl}}" class="btn btn--outline">
+                  {{ translate 'partials.pagination.next' }}
+               </a>
+            {{else}}
+               <a href="{{@pagination.previousPageUrl}}" class="btn btn--outline">
+                  {{ translate 'partials.pagination.prev' }}
+               </a>
+            {{/checkIf}}
+         {{/if}}
+         {{#if @pagination.nextPage}}
+            {{#checkIf @website.postsOrdering '==' "desc"}}
+               <a href="{{@pagination.nextPageUrl}}" class="btn btn--outline">
+                  {{ translate 'partials.pagination.prev' }}
+               </a>
+            {{else}}
+               <a href="{{@pagination.nextPageUrl}}" class="btn btn--outline">
+                  {{ translate 'partials.pagination.next' }}
+               </a>
+            {{/checkIf}}
+         {{/if}}
+      {{/checkIf}}
+   </nav>
+{{/if}}

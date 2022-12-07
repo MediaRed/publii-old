@@ -309,7 +309,13 @@ var generateThemeVariables = function(params) {
             --gray-2:             #747577;
             --light:              #D5D5D5;
             --lighter:            #F3F3F3;
-            --color:              ${params.primaryColor};   
+            --color:              ${params.primaryColor}; 
+            --primaryHeaderColor: ${params.primaryHeaderColor};
+            --primaryHeaderTextColor: ${params.primaryHeaderTextColor};
+            --primaryBodyColor:   ${params.primaryBodyColor};
+            --primaryBodyTextColor: ${params.primaryBodyTextColor};
+            --primaryFooterColor:   ${params.primaryFooterColor};
+            --primaryFooterTextColor: ${params.primaryFooterTextColor};
             --color-rgb:          ${params.primaryColor.replace('#', '').match(/[a-f0-9]{2,2}/gmi).map(n => parseInt(n, 16)).join(', ')};
             --text-color:         ${params.textColor};   
             --headings-color:     ${params.headingsColor}; 

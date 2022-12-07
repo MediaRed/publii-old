@@ -11,6 +11,11 @@
   grid-auto-flow: column;
   grid-auto-columns: minmax(260px, 1fr); 
 }
+.hero__image, .hero_image > img {
+  object-fit: cover;
+  min-height: '20vh';
+  aspect-ratio: 21 / 7;
+}
 .grid-item {
   display: grid;
   grid-template-rows: auto;

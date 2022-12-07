@@ -18,12 +18,12 @@
     "postsOrdering": "id DESC",
     "tagsOrdering": "id DESC",
     "authorsOrdering": "id DESC",
-    "appTheme": "default",
+    "appTheme": "dark",
     "language": "en-gb",
     "languageType": "default",
     "enableAdvancedPreview": false,
     "editorFontSize": 18,
     "editorFontFamily": "sans-serif",
-    "experimentalFeatureAppAutoBeautifySourceCode": false,
+    "experimentalFeatureAppAutoBeautifySourceCode": true,
     "changeSitesLocationWithoutCopying": false
 }

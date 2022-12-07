@@ -4,7 +4,7 @@
         "tagsPostsPerPage": 18,
         "authorsPostsPerPage": 18,
         "excerptLength": 12,
-        "logo": ""
+        "logo": "media/website/logo2.png"
     },
     "customConfig": {
         "pageWidth": "99vw",
@@ -24,8 +24,8 @@
         "mobilemenu": "sidebar",
         "mobilemenuExpandableSubmenus": true,
         "widthHero": "hero--full",
-        "heightMinHero": "20rem",
-        "heightMaxHero": "45rem",
+        "heightMinHero": "10rem",
+        "heightMaxHero": "35rem",
         "backgroundHero": "#111111",
         "opacityHero": "0.6",
         "displayHeroImage": false,
@@ -45,7 +45,7 @@
         "primaryColor": "#6B78B4",
         "textColor": "#111111",
         "primaryHeaderColor": "#C5B5FE",
-        "primaryHeaderTextColor": "#111111",
+        "headerTextColor": "#111111",
         "primaryBodyColor": "#C5B5FE",
         "primaryBodyTextColor": "#111111",
         "primaryFooterColor": "#f8a9bc",

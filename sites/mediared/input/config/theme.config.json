@@ -4,7 +4,7 @@
         "tagsPostsPerPage": 18,
         "authorsPostsPerPage": 18,
         "excerptLength": 12,
-        "logo": ""
+        "logo": "media/website/logo2.png"
     },
     "customConfig": {
         "pageWidth": "99vw",

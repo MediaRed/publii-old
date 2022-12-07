@@ -296,6 +296,12 @@ var generateThemeVariables = function(params) {
             --header-height:      ${params.navbarHeight};
             --hero-min-height:    ${params.heightMinHero};
             --hero-max-height:    ${params.heightMaxHero};
+            --primaryHeaderColor  ${params.primaryHeaderColor};
+            --primaryHeaderTextColor  ${params.primaryHeaderTextColor};
+            --primaryBodyColor  ${params.primaryBodyColor};
+            --primaryBodyTextColor  ${params.primaryBodyTextColor};
+            --primaryFooterColor  ${params.primaryFooterColor};
+            --primaryFooterTextColor  ${params.primaryFooterTextColor};
             --hero-opacity:       ${params.opacityHero};
             --grid-gap:           ${params.gridGap}rem;
             --card-height:        ${params.cardHeight};

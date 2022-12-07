@@ -596,6 +596,13 @@
             "type": "colorpicker"
         },
         {
+            "name": "primaryBodyTextColor",
+            "label": "Primary body text color",
+            "group": "Colors",
+            "value": "#6B78B4",
+            "type": "colorpicker"
+        },
+        {
             "name": "primaryHeaderColor",
             "label": "Primary header color",
             "group": "Colors",
@@ -603,8 +610,22 @@
             "type": "colorpicker"
         },
         {
+            "name": "primaryHeaderTextColor",
+            "label": "Primary header text color",
+            "group": "Colors",
+            "value": "#6B78B4",
+            "type": "colorpicker"
+        },
+        {
             "name": "primaryFooterColor",
             "label": "Primary footer color",
+            "group": "Colors",
+            "value": "#6B78B4",
+            "type": "colorpicker"
+        },
+        {
+            "name": "primaryFooterTextColor",
+            "label": "Primary footer text color",
             "group": "Colors",
             "value": "#6B78B4",
             "type": "colorpicker"

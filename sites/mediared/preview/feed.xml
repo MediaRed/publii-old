@@ -3,7 +3,7 @@
     <title>Mediared</title>
     <link href="file:////home/tom/Documents/Publii/sites/mediared/preview/feed.xml" rel="self" />
     <link href="file:////home/tom/Documents/Publii/sites/mediared/preview" />
-    <updated>2022-12-07T15:48:56-03:00</updated>
+    <updated>2022-12-07T16:22:51-03:00</updated>
     <author>
         <name>ivonne dos santos</name>
     </author>
@@ -221,7 +221,7 @@
         <link href="file:////home/tom/Documents/Publii/sites/mediared/preview/inicio/index.html"/>
         <id>file:////home/tom/Documents/Publii/sites/mediared/preview/inicio/index.html</id>
 
-        <updated>2022-12-07T15:48:56-03:00</updated>
+        <updated>2022-12-07T16:22:51-03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/3/photo_2022-10-17_13-31-58.jpg" alt="" />
@@ -239,17 +239,17 @@
     <div class="grid-item">
       <h2>Servicios</h2>
       <p>Vendemos cosas</p>
-      <button onClick="location.href='/tags/servicios/'">Saber mas</button>
+      <button onClick="() => location.href='/tags/servicios/'">Saber mas</button>
     </div>
     <div class="grid-item">
       <h2>Proyectos</h2>
       <p>Hacemos cosas</p>
-      <button onClick="location.href='/tags/proyectos/'">Saber mas</button>
+      <button onClick="() => location.href='/tags/proyectos/'">Saber mas</button>
     </div>
     <div class="grid-item">
       <h2>Cooperativa</h2>
       <p>Quien somos</p>
-      <button onClick="location.href='/cooperativa/'">Saber mas</button>
+      <button onClick="() => location.href='/cooperativa/'">Saber mas</button>
     </div>
 </div></div>
 

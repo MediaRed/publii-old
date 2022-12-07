@@ -18,7 +18,7 @@
     "postsOrdering": "id DESC",
     "tagsOrdering": "id DESC",
     "authorsOrdering": "id DESC",
-    "appTheme": "mediaTheme",
+    "appTheme": "default",
     "language": "en-gb",
     "languageType": "default",
     "enableAdvancedPreview": false,

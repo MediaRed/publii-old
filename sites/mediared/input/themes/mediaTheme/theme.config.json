@@ -1,0 +1,15 @@
+{
+    "supportedFeatures": {
+        "authorImages": true,
+        "authorPages": true,
+        "blockEditor": true,
+        "customComments": true,
+        "customSearch": true,
+        "errorPage": true,
+        "embedConsents": true,
+        "searchPage": true,
+        "tagImages": true,
+        "tagPages": true,
+        "tagsList": true
+      }
+}

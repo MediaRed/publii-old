@@ -711,9 +711,7 @@ textarea {
 .post {
   width: 96vw;  
 }
-.post.wrapper {
-  max-width: 90vw;  
-}
+
 .c-card__header p time { display: none}
 a.button {
  -webkit-appearance: button;
@@ -725,15 +723,16 @@ a.button {
 }
 
 .top {
+  margin: 0;
+  padding: 0;
   height: var(--header-height);
   min-height: var(--header-height);
   max-height: var(--header-height);
   width: 100%;
-  padding: 0 var(--page-margin);
 }
 @media all and (min-width: 56.25em) {
   .top {
-    max-height: var(--header-height);;
+    max-height: var(--header-height);
   }
 }
 .top > div {
@@ -755,6 +754,10 @@ a.button {
   }
 }
 .top.header {
+  z-index: 1000;
+  position: relative;
+  top: 0;
+  left: 0;
   height: var(--header-height);
   display: flex;
   width: 100vw;
@@ -845,7 +848,7 @@ a.button {
 }
 @media all and (min-width: 56.25em) {
   .logo > img {
-    max-height: 4rem;
+    height: var(--header-height);
   }
 }
 
@@ -1479,12 +1482,13 @@ a.button {
 }
 
 .container {
+  margin: 0;
+  padding-top: var(--header-height);
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
-  margin-left: auto;
-  margin-right: auto;
   max-width: var(--page-width);
   padding: 0 var(--page-margin);
+  padding: 0;
 }
 @media all and (max-width: 56.1875em) {
   .container {
@@ -1493,27 +1497,26 @@ a.button {
 }
 
 .wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: var(--entry-width);
+  margin: 0;
+  padding: 0;
 }
 
 .hero {
+  margin: 0;
+  padding: 0;
   background: var(--hero-bg);
-  margin-bottom: var(--grid-gap);
   min-height: var(--hero-min-height);
   max-height: var(--hero-max-height);
-  height: var(--hero-min-height);
+  height: var(--hero-max-height);
   width: 100vw;
-  position: relative;
   text-align: center;
-  top: 0;
-  z-index: 1;
 }
 .hero:after {
+  margin: 0;
+  padding: 0;
   content: " ";
   display: block;
-  height: var(--hero-min-height);
+  height: var(--hero-max-height);
   clear: both;
 }
 @media all and (min-width: 56.25em) {
@@ -1529,8 +1532,21 @@ a.button {
 }
 .hero--full {
   display: flex;
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
+  margin: 0;
+  padding: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-content: flex-end;
+  align-content: flex-end;
+  width: 100vw;
   height: var(--hero-max-height);
   min-height: var(--hero-min-height);
   max-height: var(--hero-max-height);
@@ -1538,35 +1554,37 @@ a.button {
 .hero > header {
   min-height: var(--hero-min-height);
   max-height: var(--hero-max-height);
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--white);
   max-width: var(--page-width);
-  padding: 0 4%;
+  color: var(--white);
   text-align: center;
   width: 100%;
-  height: var(--hero-max-height);
-  position: absolute;
-  z-index: 3;
-  top: 50%;
-  left: 50%;
+  position: relative;
+  z-index: 5;
+  top: var(--header-height);
+  left: 0;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+.hero > header > h1 {
+  position: relative;
+  margin-top: 1rem;
+  top: calc(var(--header-height) + 7vh);
+  left: 50%;
+  z-index: 4;
+}
 @media all and (min-width: 56.25em) {
   .hero > header {
+    margin: 0;
+    padding: 0;
     max-width: calc(var(--page-width) + 8%);
-    height: var(--hero-max-height);
     min-height: var(--hero-min-height);
     max-height: var(--hero-max-height);
   }
 }
 .hero > header * {
   color: var(--white);
-  margin-top: 11%;
-  margin-left: 0%;
+  margin: 0;
+  padding: 0;
 }
 .hero > header a:hover {
   text-decoration: underline;
@@ -1574,8 +1592,13 @@ a.button {
           text-decoration-skip: ink;
 }
 .hero__image {
+  margin: 0;
+  padding: 0;
   width: 100vw;
-  height: var(--hero-max-height);
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
   min-height: var(--hero-min-height);
   max-height: var(--hero-max-height);
 }
@@ -1583,24 +1606,28 @@ a.button {
   display: none;
 }
 .hero__image::after {
-  background: var(--hero-bg);
-  content: "";
-  display: block;
-  left: 0;
-  opacity: var(--hero-opacity);
-  position: absolute;
-  top: 0;
-  width: 100vw;
   margin: 0;
   padding: 0;
-  height: var(--hero-max-height);
+  background: var(--hero-bg);
+  content: "";
   min-height: var(--hero-min-height);
   max-height: var(--hero-max-height);
+  left: 0;
+  opacity: var(--hero-opacity);
+  position: relative;
+  top: var(--header-height);
+  width: 100vw;
+  z-index: 1;
 }
 .hero__image > img {
-  width: 100%;
-  height: var(--hero-max-height);
+  width: 100vw;
   display: block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0;
+  z-index: 1;
+  height: var(--hero-max-height);
   min-height: var(--hero-min-height);
   max-height: var(--hero-max-height);
   -o-object-fit: cover;
@@ -1608,7 +1635,7 @@ a.button {
 }
 @media all and (max-width: 56.1875em) {
   .hero__image > img {
-    height: var(--hero-min-height);
+    height: var(--hero-max-height);
     min-height: var(--hero-min-height);
     max-height: var(--hero-max-height);
   }

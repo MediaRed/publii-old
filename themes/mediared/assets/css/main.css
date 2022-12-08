@@ -38,7 +38,12 @@ textarea {
 address {
   font-style: normal;
 }
-
+.post_share {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
 .post__share .facebook {
   background: #3b5998;
 }
@@ -1913,21 +1918,20 @@ textarea {
 .post__bio > h3 {
   margin: 0;
 }
-.post__share {
-  display: -webkit-box;
-  display: -ms-flexbox;
+
+.post .post__share {
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 2.75rem -0.25rem;
+  margin: 0;
+  margin-left: 5rem !important;
+  margin-right: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 .post__share > a {
+  margin-left: 5rem;
   border-radius: var(--border-radius);
   color: var(--white) !important;
   display: inline-block;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
   font: var(--font-weight-bold) 0.6789341556rem var(--body-font);
   letter-spacing: 0.5px;
   margin: 0 1% 0.25rem 0;
@@ -1937,10 +1941,12 @@ textarea {
 }
 @media all and (max-width: 37.4375em) {
   .post__share > a {
+    margin-left: 5rem;
     width: 48%;
   }
 }
 .post__share > a:hover {
+  margin-left: 5rem;
   background: var(--dark);
   text-decoration: none;
 }

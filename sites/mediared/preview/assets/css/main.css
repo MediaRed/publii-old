@@ -704,7 +704,15 @@ textarea {
   grid-template-rows: auto;
   grid-gap: .5rem;
   margin: .5rem 0;  
+
 }
+.grid-item h2  {
+  color: var(--primaryBodyTextColor);
+}
+.grid-item > p  {
+  color: var(--color);
+}
+
 .col2 {
  min-width: 45vw;   
 }
@@ -1530,12 +1538,20 @@ a.button {
     width: var(--page-width);
   }
 }
+.l-grid  {
+ display: flex;
+ margin-left: 3rem;
+ margin-right: 3rem;
+ padding-left: 3rem;
+ padding-top: 3rem;
+ padding-right: 3rem;
+ width: 100%;
+}
 .hero--full {
   display: flex;
   margin: 0;
   padding: 0;
   display: -webkit-flex;
-  display: flex;
   -webkit-justify-content: center;
   justify-content: center;
   -webkit-flex-direction: row;
@@ -1934,11 +1950,14 @@ a.button {
   color: var(--gray-1);
   font-size: 0.8239746086rem;
 }
-.post__entry {
-  margin-left: 3rem;
-  margin-right: 3rem;
-  width: 100vw;
+.post__entry, .post_entry > *, .post_entry > p {
+  margin-left: 5rem;
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
 }
+
 @media all and (min-width: 56.25em) {
   .post__entry {
     margin: 2.75rem auto;

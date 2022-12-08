@@ -1935,7 +1935,9 @@ a.button {
   font-size: 0.8239746086rem;
 }
 .post__entry {
-  margin: 1.5rem 0 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  width: 100vw;
 }
 @media all and (min-width: 56.25em) {
   .post__entry {

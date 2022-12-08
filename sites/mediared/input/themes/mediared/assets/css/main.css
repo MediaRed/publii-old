@@ -2610,3 +2610,6 @@ a.button {
   visibility: visible;
   opacity: 1;
 }
+.footer .grid .grid-item h3 {
+  color: var(--primaryFooterTextColor);
+} 

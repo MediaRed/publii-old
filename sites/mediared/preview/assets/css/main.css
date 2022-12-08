@@ -126,6 +126,7 @@ body {
   overscroll-behavior: none;
 }
 .header {
+  height: var(--header-height);
   background: var(--primaryHeaderColor);
   color: var(--primaryHeaderTextColor);
 }
@@ -724,17 +725,15 @@ a.button {
 }
 
 .top {
-  max-height: 30vh;
-  left: 0;
-  position: absolute;
-  top: 0;
+  height: var(--header-height);
+  min-height: var(--header-height);
+  max-height: var(--header-height);
   width: 100%;
   padding: 0 var(--page-margin);
-  z-index: 99;
 }
 @media all and (min-width: 56.25em) {
   .top {
-    max-height: 30vh;
+    max-height: var(--header-height);;
   }
 }
 .top > div {
@@ -742,13 +741,11 @@ a.button {
       -ms-flex-align: center;
           align-items: center;
   display: -ms-grid;
-  display: grid;
-  height: 100%;
+  display: flex;
   margin: 0 auto;
   max-width: var(--page-width);
   position: relative;
   width: 100%;
-  max-height: 30vh;
 }
 @media all and (max-width: 56.1875em) {
   .top > div {
@@ -758,9 +755,9 @@ a.button {
   }
 }
 .top.header {
-  min-height: 30vh;
-  max-height: 30vh;
-  height: 30vh;
+  height: var(--header-height);
+  display: flex;
+  width: 100vw;
 }
 .top.is-visible {
   -webkit-box-align: center;
@@ -1505,7 +1502,8 @@ a.button {
   background: var(--hero-bg);
   margin-bottom: var(--grid-gap);
   min-height: var(--hero-min-height);
-  height: 30vh;
+  max-height: var(--hero-max-height);
+  height: var(--hero-min-height);
   width: 100vw;
   position: relative;
   text-align: center;
@@ -1515,6 +1513,7 @@ a.button {
 .hero:after {
   content: " ";
   display: block;
+  height: var(--hero-min-height);
   clear: both;
 }
 @media all and (min-width: 56.25em) {
@@ -1529,10 +1528,16 @@ a.button {
   }
 }
 .hero--full {
+  display: flex;
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
+  height: var(--hero-max-height);
+  min-height: var(--hero-min-height);
+  max-height: var(--hero-max-height);
 }
 .hero > header {
+  min-height: var(--hero-min-height);
+  max-height: var(--hero-max-height);
   margin: auto;
   display: flex;
   align-items: center;
@@ -1542,7 +1547,7 @@ a.button {
   padding: 0 4%;
   text-align: center;
   width: 100%;
-  height: 100%;
+  height: var(--hero-max-height);
   position: absolute;
   z-index: 3;
   top: 50%;
@@ -1553,6 +1558,9 @@ a.button {
 @media all and (min-width: 56.25em) {
   .hero > header {
     max-width: calc(var(--page-width) + 8%);
+    height: var(--hero-max-height);
+    min-height: var(--hero-min-height);
+    max-height: var(--hero-max-height);
   }
 }
 .hero > header * {
@@ -1567,7 +1575,9 @@ a.button {
 }
 .hero__image {
   width: 100vw;
-  height: 30vh;
+  height: var(--hero-max-height);
+  min-height: var(--hero-min-height);
+  max-height: var(--hero-max-height);
 }
 .hero.hero--full h1 sup {
   display: none;
@@ -1580,24 +1590,34 @@ a.button {
   opacity: var(--hero-opacity);
   position: absolute;
   top: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  height: var(--hero-max-height);
+  min-height: var(--hero-min-height);
+  max-height: var(--hero-max-height);
 }
 .hero__image > img {
   width: 100%;
-  height: 100%;
+  height: var(--hero-max-height);
   display: block;
+  min-height: var(--hero-min-height);
+  max-height: var(--hero-max-height);
   -o-object-fit: cover;
      object-fit: cover;
 }
 @media all and (max-width: 56.1875em) {
   .hero__image > img {
+    height: var(--hero-min-height);
     min-height: var(--hero-min-height);
+    max-height: var(--hero-max-height);
   }
 }
 @media all and (min-width: 56.25em) {
   .hero__image > img {
     height: var(--hero-max-height);
+    min-height: var(--hero-min-height);
+    max-height: var(--hero-max-height);
   }
 }
 .hero__image > figcaption {

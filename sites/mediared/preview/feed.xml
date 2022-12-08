@@ -3,7 +3,7 @@
     <title>Mediared</title>
     <link href="file:////home/tom/Documents/Publii/sites/mediared/preview/feed.xml" rel="self" />
     <link href="file:////home/tom/Documents/Publii/sites/mediared/preview" />
-    <updated>2022-12-08T18:00:53-03:00</updated>
+    <updated>2022-12-08T18:26:26-03:00</updated>
     <author>
         <name>ivonne dos santos</name>
     </author>
@@ -122,7 +122,7 @@
         <id>file:////home/tom/Documents/Publii/sites/mediared/preview/arte-and-cultura/index.html</id>
             <category term="Servicios"/>
 
-        <updated>2022-12-08T17:44:50-03:00</updated>
+        <updated>2022-12-08T18:23:36-03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/13/cuerpo-y-territorio-xl.png" alt="" />
@@ -140,18 +140,18 @@
   <div  class="gallery-wrapper">
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
+      <a href="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/13/gallery/gatita-xl.jpg" data-size="1200x600">
+        <img loading="lazy" src="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/13/gallery/gatita-xl-thumbnail.jpg" height="384" width="768" alt="" />
+      </a>
+      
+    </figure><figure class="gallery__item">
       <a href="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/13/gallery/INEhumo-thumbnail.jpg" data-size="768x513">
         <img loading="lazy" src="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/13/gallery/INEhumo-thumbnail-thumbnail.jpg" height="513" width="768" alt="" />
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/13/gallery/entramada-thumbnail.jpg" data-size="768x432">
-        <img loading="lazy" src="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/13/gallery/entramada-thumbnail-thumbnail.jpg" height="432" width="768" alt="" />
-      </a>
-      
-    </figure><figure class="gallery__item">
-      <a href="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/13/gallery/gatita-thumbnail.jpg" data-size="768x384">
-        <img loading="lazy" src="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/13/gallery/gatita-thumbnail-thumbnail.jpg" height="384" width="768" alt="" />
+      <a href="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/13/gallery/ine-yemanja-xl.jpg" data-size="1360x908">
+        <img loading="lazy" src="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/13/gallery/ine-yemanja-xl-thumbnail.jpg" height="513" width="768" alt="" />
       </a>
       
     </figure>
@@ -173,7 +173,7 @@
         <id>file:////home/tom/Documents/Publii/sites/mediared/preview/formacion/index.html</id>
             <category term="Servicios"/>
 
-        <updated>2022-12-08T17:45:33-03:00</updated>
+        <updated>2022-12-08T18:26:26-03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/12/nitep1-xl.jpg" alt="" />
@@ -191,13 +191,13 @@
   <div  class="gallery-wrapper">
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
-      <a href="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/12/gallery/entramada3-thumbnail.jpg" data-size="768x512">
-        <img loading="lazy" src="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/12/gallery/entramada3-thumbnail-thumbnail.jpg" height="512" width="768" alt="" />
+      <a href="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/12/gallery/entramada3-thumbnail-3.jpg" data-size="768x512">
+        <img loading="lazy" src="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/12/gallery/entramada3-thumbnail-3-thumbnail.jpg" height="512" width="768" alt="" />
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/12/gallery/nitep1-thumbnail.jpg" data-size="768x512">
-        <img loading="lazy" src="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/12/gallery/nitep1-thumbnail-thumbnail.jpg" height="512" width="768" alt="" />
+      <a href="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/12/gallery/nitep1-xl.jpg" data-size="1280x854">
+        <img loading="lazy" src="file:///home/tom/Documents/Publii/sites/mediared/preview/media/posts/12/gallery/nitep1-xl-thumbnail.jpg" height="512" width="768" alt="" />
       </a>
       
     </figure><figure class="gallery__item">
@@ -275,7 +275,7 @@
         <link href="file:////home/tom/Documents/Publii/sites/mediared/preview/inicio/index.html"/>
         <id>file:////home/tom/Documents/Publii/sites/mediared/preview/inicio/index.html</id>
 
-        <updated>2022-12-08T17:10:26-03:00</updated>
+        <updated>2022-12-08T18:20:06-03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="file:////home/tom/Documents/Publii/sites/mediared/preview/media/posts/3/violeta.jpg" alt="" />

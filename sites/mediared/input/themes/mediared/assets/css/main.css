@@ -1892,7 +1892,7 @@ a.button {
   margin: 0;
   text-transform: uppercase;
 }
-.post__nav {
+.post__nav, .post__share {
   margin-left: 5rem;
   margin-right: 5rem;
 }

@@ -36,7 +36,7 @@ textarea {
 }
 .amarillo {
   background: var(--primaryHeaderColor);
-  padding: 5rem;
+  padding: 2rem;
 }
 address {
   font-style: normal;
@@ -2047,12 +2047,12 @@ a.button {
 .post__bio > h3 {
   margin: 0;
 }
-.post .post__share {
+.post__share {
   display: flex;
   margin: 0;
   margin-left: 5rem !important;
   margin-right: 5rem;
-  padding-left: 5rem;
+  padding-left: 5rem !important;
   padding-right: 5rem;
 }
 .post__share > a {

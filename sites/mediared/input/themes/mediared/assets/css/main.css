@@ -719,9 +719,6 @@ textarea {
 .col2 {
  min-width: 45vw;   
 }
-.post {
-  width: 96vw;  
-}
 
 .c-card__header p time { display: none}
 a.button {
@@ -1958,7 +1955,7 @@ a.button {
   color: var(--gray-1);
   font-size: 0.8239746086rem;
 }
-.post__entry, .post_entry > *, .post_entry > p {
+.post_entry > div, .post_entry > p {
   margin-left: 5rem;
   padding-left: 5rem;
   display: flex;
@@ -1968,7 +1965,7 @@ a.button {
 
 @media all and (min-width: 56.25em) {
   .post__entry {
-    margin: 2.75rem auto;
+    margin-top: 0;
   }
 }
 .post__entry > :nth-child(1) {

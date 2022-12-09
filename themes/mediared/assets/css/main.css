@@ -34,7 +34,10 @@ select,
 textarea {
   font: inherit;
 }
-
+.amarillo {
+  background: var(--primaryHeaderColor);
+  padding: 5rem;
+}
 address {
   font-style: normal;
 }

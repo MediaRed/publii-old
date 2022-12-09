@@ -1,0 +1,62 @@
+{
+	"name": "Matomo Analytics Integration",
+	"description": "This plugin lets site owners easily add Matomo Analytics code to their sites.",
+	"license": "GPL-3.0",
+	"author": "TidyCustoms",
+	"version": "1.0.1",
+	"scope": "site",
+	"minimumPubliiVersion": "0.39.0",
+	"usePluginSettingsView": false,
+    "messageInOptions": {
+        "type": "info",
+        "text": "Please remember that this plugin does not output the analytics code in preview mode by default. You can change this behavior using the 'Output code in Preview Mode' option."
+    },
+    "config": [
+        {
+            "name": "matomoURL",
+            "label": "Matomo URL",
+            "group": "Configuration",
+            "placeholder": "https://mywebsite.matomo.cloud/",
+            "value": "",
+            "type": "text"
+        },
+        {
+            "name": "containerID",
+            "label": "Your site ID",
+            "group": "Configuration",
+            "value": "",
+            "type": "text"
+        },
+        {
+            "name": "previewMode",
+            "label": "Output code in Preview Mode",
+            "note": "Enable this option only when checking or debugging analytics code generation. Leaving this option enabled can lead to false tracking data being generated when browsing your website in preview mode.",
+            "group": "Configuration",
+            "type": "checkbox",
+            "value": false
+        },
+        {
+            "name": "cookieBannerIntegration",
+            "label": "",
+            "note": "Enabling this option will integrate this plugin with Publii's native Cookie Banner, allowing visitors to consent to cookies installed by Matomo. This option is recommended if you want to ensure compliance with privacy regulations.",
+            "group": "Cookie Banner integration",
+            "type": "checkbox",
+            "value": false
+        },
+        {
+            "name": "cookieBannerGroup",
+            "label": "Cookie Group ID",
+            "note": "Please specify which Cookie Group ID of the Cookie Banner you wish to associate with the Matomo script. If it does not exists, add a new Cookie Group Name with the Cookie Group ID specified above in the Privacy Settings section of the Site Settings. For more details please visit our  <a href='https://getpublii.com/docs/gdpr-cookie-banner-configuration.html#cookie-groups' target='_blank' rel='nofollow noopener noreferrer'> documentation.</a>",
+            "group": "Cookie Banner integration",
+            "placeholder": "analytics",
+            "type": "text",
+            "value": "",
+            "dependencies": [
+                {
+                    "field": "cookieBannerIntegration",
+                    "value": true
+                }
+            ]
+        }
+    ]
+}

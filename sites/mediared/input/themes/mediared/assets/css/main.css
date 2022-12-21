@@ -712,7 +712,8 @@ textarea {
     margin-right: 1em;
     overflow: hidden;
     width: 100%;
-    gap: .75em;
+    height: 100%;
+    gap: var(--grid-gap);
 }
 .card_link {
   position: relative;
@@ -723,13 +724,11 @@ textarea {
     flex: 1 1 auto;
     align-items: center;
     justify-content: center;
-    aspect-ratio: 16 / 9;
-    max-height: 25vh;
+    min-height: 25vh;
     overflow: hidden;
     position: inherit;
     object-fit: cover;
     z-index: 1;
-}
 }
 .cards__item:hover > a:after , .hero__image:hover > a:after{
   background: var(--dark);
@@ -750,10 +749,13 @@ textarea {
           transform: scale(1.6) rotate(0deg);
           overflow: hidden;
 }
+.cards__item a > img, .cards__item, .hero__image {
+  aspect-ratio: 21 / 6;
+}
 .cards__item a > img {
     width: 100%;
     position: inherit;
-    aspect-ratio: 16 / 9;
+   
     height: inherit;
     object-fit: cover;
     z-index: 3
@@ -1950,8 +1952,6 @@ a.button {
 }
 .c-card__header > h2 {
   margin-top: 0.5rem;
-}
-.c-card__header > h2 {
   font-size: 1.1377777785rem;
 }
 @media screen and (min-width: 20rem) {
@@ -2059,12 +2059,19 @@ a.button {
   color: var(--gray-1);
   font-size: 0.8239746086rem;
 }
-.post_entry > div, .post_entry > p {
-  margin-left: 5rem;
-  padding-left: 5rem;
+.post .post__entry {
+  margin-top: 0;
+}
+.post .post__entry > div {
+  margin: 0;
+}
+.post .post__entry > p {
+  margin: 3rem;
+}
+.post__entry > div, .post__entry > p {
+  margin: 5rem;
   display: flex;
   flex-direction: column;
-  width: 90vw;
 }
 
 @media all and (min-width: 56.25em) {

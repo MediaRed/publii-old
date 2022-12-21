@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "f490643356f288ce5ef3e6c0e8808110"
+        "md5": "419348e64d6f075ebbadfedb3ae93b25"
     },
     {
         "path": "amp",
@@ -17,7 +17,7 @@
     {
         "path": "/amp/arte-and-cultura/index.html",
         "type": "file",
-        "md5": "dcf88b070e9d7e947e079323b1a78606"
+        "md5": "67e758e9d5588d37159b83b8da7d49a9"
     },
     {
         "path": "amp/articulacion",
@@ -27,7 +27,7 @@
     {
         "path": "/amp/articulacion/index.html",
         "type": "file",
-        "md5": "f2f4844ac5e1da5e47af7dbe7cc56934"
+        "md5": "6ae75aeae808a1b2ef837cdacc6b91e1"
     },
     {
         "path": "amp/authors",
@@ -42,7 +42,7 @@
     {
         "path": "/amp/authors/ivonne-dos-santos/index.html",
         "type": "file",
-        "md5": "eb17c40814ec5e1e385d9b294474f947"
+        "md5": "06d7946d9c31f4dc0c51eb465c982357"
     },
     {
         "path": "amp/campanas",
@@ -52,7 +52,7 @@
     {
         "path": "/amp/campanas/index.html",
         "type": "file",
-        "md5": "5adf806a4eb982d9dce4d29ba461d8ca"
+        "md5": "06dfe6b2bff0af4e0a030f2893464b0b"
     },
     {
         "path": "amp/comunicacion",
@@ -62,7 +62,7 @@
     {
         "path": "/amp/comunicacion/index.html",
         "type": "file",
-        "md5": "5cc71a797728dd2320087a0385a6b33a"
+        "md5": "40af7f30a6d785b13f7f703584738f6a"
     },
     {
         "path": "amp/cooperativa",
@@ -72,7 +72,7 @@
     {
         "path": "/amp/cooperativa/index.html",
         "type": "file",
-        "md5": "2e7a924c2ca2dd3ca8a210eb2c5812d6"
+        "md5": "de001ee4eec17e46459720c9bef48c8e"
     },
     {
         "path": "amp/entramada",
@@ -82,7 +82,7 @@
     {
         "path": "/amp/entramada/index.html",
         "type": "file",
-        "md5": "a22a05e7a8533e889f0424944958ba59"
+        "md5": "53b607fb15c87ba162dd51b0b1fa895c"
     },
     {
         "path": "amp/formacion",
@@ -92,12 +92,12 @@
     {
         "path": "/amp/formacion/index.html",
         "type": "file",
-        "md5": "24ed1e872267cb1bd2663784013a1fad"
+        "md5": "64c8705ff9ed23f850623011693a8cd6"
     },
     {
         "path": "/amp/index.html",
         "type": "file",
-        "md5": "d90af7f2be0d5732fba7093ac97b143e"
+        "md5": "68ea4498bbea63a1ea0a3e243ea54c68"
     },
     {
         "path": "amp/inicio",
@@ -107,7 +107,7 @@
     {
         "path": "/amp/inicio/index.html",
         "type": "file",
-        "md5": "91175d2d29895b472e98bd09aca47485"
+        "md5": "fb9e624dcc8f43123609770eb8c3a807"
     },
     {
         "path": "amp/mediaactivismo",
@@ -117,7 +117,7 @@
     {
         "path": "/amp/mediaactivismo/index.html",
         "type": "file",
-        "md5": "8786aa14d5f36728e68c83392aa89776"
+        "md5": "60ca902b005dec30bd00572dfac7f15d"
     },
     {
         "path": "amp/otros-proyectos",
@@ -127,7 +127,7 @@
     {
         "path": "/amp/otros-proyectos/index.html",
         "type": "file",
-        "md5": "6eb682d96caea004276924f9a5429a58"
+        "md5": "2c0fda9a6fe60ede397748acdfc206ef"
     },
     {
         "path": "amp/tags",
@@ -142,7 +142,7 @@
     {
         "path": "/amp/tags/proyectos/index.html",
         "type": "file",
-        "md5": "a7538fe3002c4bcd8897c57d8ecce9e4"
+        "md5": "398a05442d92ff59fbd7b7e5ed78be9c"
     },
     {
         "path": "amp/tags/servicios",
@@ -152,7 +152,7 @@
     {
         "path": "/amp/tags/servicios/index.html",
         "type": "file",
-        "md5": "958ae7b03568394dc2f17a7fb76b5c6c"
+        "md5": "244e60061dc741492809d4fad1f736a1"
     },
     {
         "path": "arte-and-cultura",
@@ -162,7 +162,7 @@
     {
         "path": "/arte-and-cultura/index.html",
         "type": "file",
-        "md5": "99fd18be5841f5fb305c0eb508b75029"
+        "md5": "f83242b5c16cd5578418a5c4c4f83c5d"
     },
     {
         "path": "articulacion",
@@ -172,7 +172,7 @@
     {
         "path": "/articulacion/index.html",
         "type": "file",
-        "md5": "7e87395bca4fdf908caa9419237e62e5"
+        "md5": "615c7ac230f0b9a41a579406f93a6339"
     },
     {
         "path": "assets",
@@ -192,7 +192,7 @@
     {
         "path": "/assets/css/main.css",
         "type": "file",
-        "md5": "930d21219c3c8bc27294124e60d2810f"
+        "md5": "1661bfb4dc9587040c8154f384ba48d7"
     },
     {
         "path": "/assets/css/photoswipe.css",
@@ -202,7 +202,7 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "22f49c3043a4f3df36e7d32995e91d42"
+        "md5": "57c848465f974d14176cf4502a0ab426"
     },
     {
         "path": "assets/dynamic",
@@ -292,7 +292,7 @@
     {
         "path": "/authors/ivonne-dos-santos/index.html",
         "type": "file",
-        "md5": "da4a4ca8f0935a725006e79345632e64"
+        "md5": "10d8a66f46ed55383bcffd77e2fd5e1a"
     },
     {
         "path": "campanas",
@@ -302,7 +302,7 @@
     {
         "path": "/campanas/index.html",
         "type": "file",
-        "md5": "cbfbd8be43b5782200c4750edbe71a36"
+        "md5": "b4a704c98b5ac58350b695eb6a540c98"
     },
     {
         "path": "comunicacion",
@@ -312,7 +312,7 @@
     {
         "path": "/comunicacion/index.html",
         "type": "file",
-        "md5": "4b73d0f8430e088277d7244e809d9d6e"
+        "md5": "f85251a38562c1dc4e643a56ac4b4d11"
     },
     {
         "path": "cooperativa",
@@ -322,7 +322,7 @@
     {
         "path": "/cooperativa/index.html",
         "type": "file",
-        "md5": "9a42c88985cc88b0ebe122b252951172"
+        "md5": "fb0ee3a13af44c1549edf1dc83ef1255"
     },
     {
         "path": "entramada",
@@ -332,17 +332,17 @@
     {
         "path": "/entramada/index.html",
         "type": "file",
-        "md5": "56a1b49958385c17d88de8ca11a83cc0"
+        "md5": "c51448d2c924e9fa921317f01f9595a0"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "fda4132687023b2b2d38b6a6b891dc5d"
+        "md5": "c99584183698b96db54ac2162c3b930f"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "c18ca3643c4ad0a012b73723ab8984fe"
+        "md5": "0fa0631d30c3a9d9772d617962e74289"
     },
     {
         "path": "formacion",
@@ -352,12 +352,12 @@
     {
         "path": "/formacion/index.html",
         "type": "file",
-        "md5": "be15ad8150d5b9d2fa754bc3cce7681b"
+        "md5": "e21f6e96637f57b027d5a3f633ee1f9c"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "1cd7301851e90e0acd47fc47f0049526"
+        "md5": "6c0873adf5ede54508d0b7198d7d450d"
     },
     {
         "path": "inicio",
@@ -367,7 +367,7 @@
     {
         "path": "/inicio/index.html",
         "type": "file",
-        "md5": "121b33d35f54595fd6c47273cb957cae"
+        "md5": "496399b74a6fccf57d1b5414023d29d9"
     },
     {
         "path": "media",
@@ -622,37 +622,37 @@
     {
         "path": "/media/posts/13/responsive/cuerpo-y-territorio-xl-2xl.png",
         "type": "file",
-        "md5": "444ca462457063ced84596e97429bdf8"
+        "md5": "ee9f787f74dee04251a16a91b4fcc426"
     },
     {
         "path": "/media/posts/13/responsive/cuerpo-y-territorio-xl-lg.png",
         "type": "file",
-        "md5": "54518a9c043601ed5a7d7c39d2914763"
+        "md5": "e70e6de35cf4c69b522406a0a98618ac"
     },
     {
         "path": "/media/posts/13/responsive/cuerpo-y-territorio-xl-md.png",
         "type": "file",
-        "md5": "770e96b0940467233b522e7b03e15d1a"
+        "md5": "5fc1f7384cbf24391d797d70a7f13d33"
     },
     {
         "path": "/media/posts/13/responsive/cuerpo-y-territorio-xl-sm.png",
         "type": "file",
-        "md5": "71e9d6d72c9ee2c7aa1d56a0729107e5"
+        "md5": "870c6f6f8fb8a0255d154486061adac9"
     },
     {
         "path": "/media/posts/13/responsive/cuerpo-y-territorio-xl-sm2.png",
         "type": "file",
-        "md5": "fab0d00699851e24849144ea9142fe36"
+        "md5": "5a13c2d79de3d562b1bda6b2de3eb28b"
     },
     {
         "path": "/media/posts/13/responsive/cuerpo-y-territorio-xl-xl.png",
         "type": "file",
-        "md5": "444ca462457063ced84596e97429bdf8"
+        "md5": "ee9f787f74dee04251a16a91b4fcc426"
     },
     {
         "path": "/media/posts/13/responsive/cuerpo-y-territorio-xl-xs.png",
         "type": "file",
-        "md5": "383632073f6952451d487ef965b65bfc"
+        "md5": "114f728c8b5a05df6765bfa89741e8d3"
     },
     {
         "path": "media/posts/15",
@@ -1140,19 +1140,89 @@
         "md5": false
     },
     {
+        "path": "/media/website/corazon-web-02-2.png",
+        "type": "file",
+        "md5": "a5a454af4e294f36410346826b81f292"
+    },
+    {
+        "path": "/media/website/corazon-web-02.png",
+        "type": "file",
+        "md5": "a5a454af4e294f36410346826b81f292"
+    },
+    {
         "path": "/media/website/cropped-logo-fondo-cuadrada.png",
         "type": "file",
         "md5": "848b404bf853b66f9d200898e4705349"
     },
     {
-        "path": "/media/website/logo2.png",
+        "path": "/media/website/logoMRweb-01.png",
         "type": "file",
-        "md5": "8144a0d8ef8c6a4f16fb6a3de6cbc2a2"
+        "md5": "a309692d7e066dcf34b38d97a9f208e7"
     },
     {
         "path": "media/website/responsive",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "/media/website/responsive/corazon-web-02-2-2xl.png",
+        "type": "file",
+        "md5": "2ae7ba3aaee9ed23525a18051b8fa7af"
+    },
+    {
+        "path": "/media/website/responsive/corazon-web-02-2-lg.png",
+        "type": "file",
+        "md5": "97bf509c5c2deb964621f5086ecb078e"
+    },
+    {
+        "path": "/media/website/responsive/corazon-web-02-2-md.png",
+        "type": "file",
+        "md5": "4d353a4ed52e2a99848c3dafd2b5a6c3"
+    },
+    {
+        "path": "/media/website/responsive/corazon-web-02-2-sm.png",
+        "type": "file",
+        "md5": "fdd01254dba81bd420fd3cca33555196"
+    },
+    {
+        "path": "/media/website/responsive/corazon-web-02-2-xl.png",
+        "type": "file",
+        "md5": "8e19b9fc8f1402d8b22e73bbcf526f86"
+    },
+    {
+        "path": "/media/website/responsive/corazon-web-02-2-xs.png",
+        "type": "file",
+        "md5": "2730ebb377d832f66728b45276d1b9ae"
+    },
+    {
+        "path": "/media/website/responsive/corazon-web-02-2xl.png",
+        "type": "file",
+        "md5": "2ae7ba3aaee9ed23525a18051b8fa7af"
+    },
+    {
+        "path": "/media/website/responsive/corazon-web-02-lg.png",
+        "type": "file",
+        "md5": "97bf509c5c2deb964621f5086ecb078e"
+    },
+    {
+        "path": "/media/website/responsive/corazon-web-02-md.png",
+        "type": "file",
+        "md5": "4d353a4ed52e2a99848c3dafd2b5a6c3"
+    },
+    {
+        "path": "/media/website/responsive/corazon-web-02-sm.png",
+        "type": "file",
+        "md5": "fdd01254dba81bd420fd3cca33555196"
+    },
+    {
+        "path": "/media/website/responsive/corazon-web-02-xl.png",
+        "type": "file",
+        "md5": "8e19b9fc8f1402d8b22e73bbcf526f86"
+    },
+    {
+        "path": "/media/website/responsive/corazon-web-02-xs.png",
+        "type": "file",
+        "md5": "2730ebb377d832f66728b45276d1b9ae"
     },
     {
         "path": "/media/website/responsive/cropped-logo-fondo-cuadrada-2xl.png",
@@ -1185,34 +1255,34 @@
         "md5": "78ff79b2bf6dc2cd0cd258f2f0f57d85"
     },
     {
-        "path": "/media/website/responsive/logo2-2xl.png",
+        "path": "/media/website/responsive/logoMRweb-01-2xl.png",
         "type": "file",
-        "md5": "5c3bf6d676ea40186bc0351e8a25d260"
+        "md5": "4869d2f034213d772133b07c3aa0d9c4"
     },
     {
-        "path": "/media/website/responsive/logo2-lg.png",
+        "path": "/media/website/responsive/logoMRweb-01-lg.png",
         "type": "file",
-        "md5": "5c3bf6d676ea40186bc0351e8a25d260"
+        "md5": "4953b71cf810c1916df208b61d751f3b"
     },
     {
-        "path": "/media/website/responsive/logo2-md.png",
+        "path": "/media/website/responsive/logoMRweb-01-md.png",
         "type": "file",
-        "md5": "5c3bf6d676ea40186bc0351e8a25d260"
+        "md5": "40c7841c7bbc982f1e9158863e7ff219"
     },
     {
-        "path": "/media/website/responsive/logo2-sm.png",
+        "path": "/media/website/responsive/logoMRweb-01-sm.png",
         "type": "file",
-        "md5": "5c3bf6d676ea40186bc0351e8a25d260"
+        "md5": "07d16cf39073845e77fb296414ad8706"
     },
     {
-        "path": "/media/website/responsive/logo2-xl.png",
+        "path": "/media/website/responsive/logoMRweb-01-xl.png",
         "type": "file",
-        "md5": "5c3bf6d676ea40186bc0351e8a25d260"
+        "md5": "3fe4b3cddebf4fc6e1ae8a01c1d25951"
     },
     {
-        "path": "/media/website/responsive/logo2-xs.png",
+        "path": "/media/website/responsive/logoMRweb-01-xs.png",
         "type": "file",
-        "md5": "d2baded6fb94ef258e873af7dc825c8b"
+        "md5": "cd27ce9528742fb8341b844c66195258"
     },
     {
         "path": "mediaactivismo",
@@ -1222,7 +1292,7 @@
     {
         "path": "/mediaactivismo/index.html",
         "type": "file",
-        "md5": "85ab1a0d9774f66427f86d9a646e612b"
+        "md5": "cb063146a4a7ee8702f1aefbd9e6a8c1"
     },
     {
         "path": "otros-proyectos",
@@ -1232,7 +1302,7 @@
     {
         "path": "/otros-proyectos/index.html",
         "type": "file",
-        "md5": "b1cb262e2334c1c55fd47e2cc0d589b4"
+        "md5": "27828d29b0e46918370621023f5195e9"
     },
     {
         "path": "robots.txt",
@@ -1242,7 +1312,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "374101353e47439eff297499f0296cda"
+        "md5": "01c5c77ae03367d530df836176e387aa"
     },
     {
         "path": "sitemap.xsl",
@@ -1257,7 +1327,7 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "b43a073173952d438ee5488e6933d485"
+        "md5": "270fc97b877925ccdbba7af34ff669eb"
     },
     {
         "path": "tags/proyectos",
@@ -1267,7 +1337,7 @@
     {
         "path": "/tags/proyectos/index.html",
         "type": "file",
-        "md5": "bab6cfc280949a7eaf7e6062306a5eb4"
+        "md5": "8d02d11798e79abe09e6be6736f6085c"
     },
     {
         "path": "tags/servicios",
@@ -1277,6 +1347,6 @@
     {
         "path": "/tags/servicios/index.html",
         "type": "file",
-        "md5": "be8a1aef7669a283f419c6f62edfba1d"
+        "md5": "2e55aad4b07ef419fd90c50a97ea9d1b"
     }
 ]

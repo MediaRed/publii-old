@@ -1,0 +1,10 @@
+{
+    "uuid": "uuid-1671575156751-515530484",
+    "name": "sdss",
+    "displayName": "SDSS",
+    "logo": {
+        "icon": "web-pizza",
+        "color": 1
+    },
+    "theme": "simple"
+}

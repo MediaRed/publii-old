@@ -4,7 +4,7 @@
         "tagsPostsPerPage": 18,
         "authorsPostsPerPage": 18,
         "excerptLength": 12,
-        "logo": "media/website/logo2.png"
+        "logo": "media/website/logoMRweb-01.png"
     },
     "customConfig": {
         "pageWidth": "99vw",
@@ -29,10 +29,10 @@
         "backgroundHero": "#111111",
         "opacityHero": "0.6",
         "displayHeroImage": false,
-        "uploadHero": "",
+        "uploadHero": "media/website/corazon-web-02.png",
         "uploadHeroAlt": "",
         "uploadHeroCaption": "",
-        "textHero": "<p>My blog stories</p>\n<h1>The Tattoo blog</h1>",
+        "textHero": "<p>My blog stories</p>\n<h1>MediaRed Cooperativa</h1>",
         "siteOwner": false,
         "lastUpdate": false,
         "cardHeight": "20rem",
@@ -70,7 +70,7 @@
         "shareLinkedin": false,
         "shareBuffer": false,
         "shareWhatsApp": false,
-        "copyrightText": "<div class=\"grid\">\n<div class=\"grid-item col2\">\n<h3>ACERCA DE ESTE SITIO</h3>\n<p><strong>Crear y construir colectivamente nutre nuestra forma de producir una comunicación feminista para comunicar, dialogar, generar instancias de formación; desde el amor y el ser en común</strong></p>\n</div>\n<div class=\"grid-item col2\">\n<h3>CORREO</h3>\n<p><strong>mediareduy@gmail.com</strong></p>\n</div>\n</div>",
+        "copyrightText": "<div class=\"grid\">\n<div class=\"grid-item col2\">\n<h3 class=\"align-center\">ACERCA DE ESTE SITIO</h3>\n<p class=\"align-center\"><strong><span style=\"color: #000000;\">Crear y construir colectivamente nutre nuestra forma de producir una comunicación feminista para crear, dialogar y generar instancias de formación; desde el amor y el ser en común</span></strong></p>\n<p> </p>\n</div>\n<div class=\"grid-item col2\">\n<h3 class=\"align-center\">CORREO</h3>\n<p class=\"align-center\"><strong><span style=\"color: #000000;\">mediareduy@gmail.com</span></strong></p>\n<p> </p>\n</div>\n</div>",
         "socialButtons": true,
         "socialFacebook": "https://www.facebook.com/mediareduy/",
         "socialTwitter": "https://twitter.com/mediareduy",

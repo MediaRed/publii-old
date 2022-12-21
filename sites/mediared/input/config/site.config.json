@@ -29,12 +29,12 @@
         "sitemapExcludedFiles": "",
         "usePageTitleInsteadItemName": false,
         "openGraphEnabled": 1,
-        "openGraphImage": "",
+        "openGraphImage": "corazon-web-02-2.png",
         "openGraphAppId": "",
         "twitterCardsEnabled": 1,
         "twitterCardsType": "summary_large_image",
         "twitterUsername": "mediared",
-        "metaTitle": "%sitename",
+        "metaTitle": "MediaRed Cooperativa",
         "metaDescription": "",
         "noIndexThisPage": false,
         "homepageNoIndexPagination": false,
@@ -90,7 +90,7 @@
             "searchPage": "search.html"
         },
         "ampIsEnabled": true,
-        "ampPrimaryColor": "#039be5",
+        "ampPrimaryColor": "#F8EF22",
         "ampImage": "cropped-logo-fondo-cuadrada.png",
         "ampShare": 1,
         "ampShareSystem": 1,
@@ -213,5 +213,5 @@
         }
     },
     "theme": "mediared",
-    "syncDate": 1670610331945
+    "syncDate": 1670614797069
 }
